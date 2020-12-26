@@ -1,9 +1,7 @@
-# file = File.open("nyan.txt", "r")
-file = $stdin # terminalでcontrol + d でEOF
+file = File.open("nyan.txt", "r")
 lines = file.readlines
 file.close
 
-# file = File.open("nyan_copy.txt", "w")
-file = $stdout
+file = File.open("nyan_copy.txt", "w")
 file.write(lines.join)
 file.close
