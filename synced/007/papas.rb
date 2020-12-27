@@ -1,5 +1,5 @@
 Signal.trap(:INT) do
-  STDERR.puts "ぬわーっ!!!"
+  STDERR.puts "!!!"
   exit
 end
 
